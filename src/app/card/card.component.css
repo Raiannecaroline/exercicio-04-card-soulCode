@@ -1,0 +1,78 @@
+.card-item{
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+  border-top: 1px solid #ffffff;
+  background-color: #293462;
+  color: #ffffff;
+  box-shadow: none;
+  box-shadow: 0;
+}
+
+.numeroUm{
+  width: 100%;
+  border-top: 1px solid #c4c4c4;
+  border: none;
+  margin: 0;
+  box-shadow: 0;
+}
+
+mat-card-title{
+  font-size: 20px;
+  color: #ffffff;
+  box-shadow: 0;
+}
+
+mat-card-subtitle, p{
+  font-size: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0;
+}
+
+mat-card-subtitle, b{
+  font-size: 60px;
+  margin: 0 5px 0 0;
+  box-shadow: 0;
+}
+
+mat-card-content{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0;
+}
+
+mat-divider{
+  border-top: 1px solid #ffffff;
+  box-shadow: 0;
+}
+
+mat-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #293462;
+  box-shadow: 0;
+  width: 200px;
+  padding: 10px;
+}
+
+mat-card-actions{
+  border: 1px solid #ffffff;
+  width: 100%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+mat-card-actions:hover{
+  background-color: rgb(157,165,238);
+  transition: all 0.5s;
+}

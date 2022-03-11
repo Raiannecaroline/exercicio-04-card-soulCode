@@ -1,0 +1,88 @@
+body{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(51,51,51);
+  color: #fff;
+}
+
+.cards{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  padding: 30px;
+  width: 33%;
+  box-shadow: 0;
+  
+
+}
+
+
+.cards:hover{
+  background:  lightblue;
+  transition: all 0.4s;
+
+}
+
+.card-1{
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0;
+  padding: 25px;
+  background-color:rgb(41,52,98);
+  border-radius: 10px;
+  margin: 0;
+}
+
+.card-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 250px;
+  height: 350px;
+  border-radius: 25px;
+  padding: 60px;
+  background-color:rgb(41,52,98);
+  color: #ffff;
+  border-bottom: #c4c4c4;
+  margin: 0;
+  box-shadow: 0;
+}
+
+.card-3{
+  padding: 20px;
+  background-color:rgb(41,52,98);
+  border-radius: 10px;
+  box-shadow: 0;
+}
+
+.card-2 mat-card-title, mat-card-title{
+  font-size: 17px;
+  color: #ffff;
+  box-shadow: 0;
+}
+
+.button-click{
+  width: 100%;
+  border: 1px solid #ffffff;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.card-2 .button-click{
+  border: 1px solid #ffffff;
+  width: 100%;
+  color: #fff;
+}
+
+
+header{ 
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 20px 0;
+}
